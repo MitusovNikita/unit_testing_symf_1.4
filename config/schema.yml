@@ -1,0 +1,7 @@
+# config/schema.yml
+propel:
+  users:
+    _attribute: { phpName: Users }
+    id: ~
+    name: { type: varchar,  size: 255 }
+    status_id: { type: integer }

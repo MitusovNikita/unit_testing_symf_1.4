@@ -1,0 +1,245 @@
+Feb 17 19:30:26 symfony [info] {sfPatternRouting} Match route "users" (/users.:sf_format) for /users with parameters array (  'module' => 'users',  'action' => 'index',  'sf_format' => 'html',)
+Feb 17 19:30:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 19:30:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 19:30:26 symfony [info] {usersActions} Call "usersActions->executeIndex()"
+Feb 17 19:30:26 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    8.3 MB | mempeak:    8.3 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Feb 17 19:30:26 symfony [debug] {sfPropelLogger} time:  0.003 sec | slow:  NO | mem:    8.3 MB | mempeak:    8.3 MB | memdelta:      0.0 B | SELECT COUNT(*) FROM `users`
+Feb 17 19:30:26 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/indexSuccess.php"
+Feb 17 19:30:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_assets.php"
+Feb 17 19:30:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_flashes.php"
+Feb 17 19:30:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_header.php"
+Feb 17 19:30:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_filters.php"
+Feb 17 19:30:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_filters_field.php"
+Feb 17 19:30:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_filters_field.php"
+Feb 17 19:30:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list.php"
+Feb 17 19:30:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_th_tabular.php"
+Feb 17 19:30:26 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 17 19:30:26 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 17 19:30:26 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 17 19:30:26 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 17 19:30:26 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 17 19:30:26 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 17 19:30:26 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    9.3 MB | mempeak:    9.3 MB | memdelta:      0.0 B | SELECT users.ID, users.NAME, users.STATUS_ID FROM `users` LIMIT 20
+Feb 17 19:30:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_batch_actions.php"
+Feb 17 19:30:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_tabular.php"
+Feb 17 19:30:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_actions.php"
+Feb 17 19:30:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_batch_actions.php"
+Feb 17 19:30:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_tabular.php"
+Feb 17 19:30:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_actions.php"
+Feb 17 19:30:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_batch_actions.php"
+Feb 17 19:30:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_actions.php"
+Feb 17 19:30:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_footer.php"
+Feb 17 19:30:26 symfony [info] {sfPHPView} Decorate content with "/var/www/symfony1.4.local/public_html/apps/backend/templates/layout.php"
+Feb 17 19:30:26 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/apps/backend/templates/layout.php"
+Feb 17 19:30:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 19:30:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 17 19:30:26 symfony [info] {sfWebDebugLogger} Configuration 34.35 ms (12)
+Feb 17 19:30:26 symfony [info] {sfWebDebugLogger} Factories 32.14 ms (1)
+Feb 17 19:30:26 symfony [info] {sfWebDebugLogger} Action "users/index" 12.39 ms (1)
+Feb 17 19:30:26 symfony [info] {sfWebDebugLogger} View "Success" for "users/index" 12.98 ms (1)
+Feb 17 19:30:26 symfony [info] {sfWebDebugLogger} Partial "users/_assets" 0.17 ms (1)
+Feb 17 19:30:26 symfony [info] {sfWebDebugLogger} Partial "users/_flashes" 0.13 ms (1)
+Feb 17 19:30:26 symfony [info] {sfWebDebugLogger} Partial "users/_list_header" 0.12 ms (1)
+Feb 17 19:30:26 symfony [info] {sfWebDebugLogger} Partial "users/_filters" 1.71 ms (1)
+Feb 17 19:30:26 symfony [info] {sfWebDebugLogger} Partial "users/_filters_field" 0.78 ms (2)
+Feb 17 19:30:26 symfony [info] {sfWebDebugLogger} Partial "users/_list" 4.13 ms (1)
+Feb 17 19:30:26 symfony [info] {sfWebDebugLogger} Partial "users/_list_th_tabular" 0.45 ms (1)
+Feb 17 19:30:26 symfony [info] {sfWebDebugLogger} Partial "users/_list_td_batch_actions" 0.26 ms (2)
+Feb 17 19:30:26 symfony [info] {sfWebDebugLogger} Partial "users/_list_td_tabular" 0.32 ms (2)
+Feb 17 19:30:26 symfony [info] {sfWebDebugLogger} Partial "users/_list_td_actions" 0.65 ms (2)
+Feb 17 19:30:26 symfony [info] {sfWebDebugLogger} Partial "users/_list_batch_actions" 0.32 ms (1)
+Feb 17 19:30:26 symfony [info] {sfWebDebugLogger} Partial "users/_list_actions" 0.16 ms (1)
+Feb 17 19:30:26 symfony [info] {sfWebDebugLogger} Partial "users/_list_footer" 0.10 ms (1)
+Feb 17 19:30:26 symfony [info] {sfWebResponse} Send content (66391 o)
+Feb 17 19:30:40 symfony [info] {sfPatternRouting} Match route "users" (/users.:sf_format) for /users with parameters array (  'module' => 'users',  'action' => 'index',  'sf_format' => 'html',)
+Feb 17 19:30:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 19:30:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 19:30:40 symfony [info] {usersActions} Call "usersActions->executeIndex()"
+Feb 17 19:30:40 symfony [debug] {sfPropelLogger} time:  0.003 sec | slow:  NO | mem:    6.8 MB | mempeak:    6.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Feb 17 19:30:40 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    7.0 MB | mempeak:    7.0 MB | memdelta:      0.0 B | SELECT COUNT(*) FROM `users`
+Feb 17 19:30:40 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/indexSuccess.php"
+Feb 17 19:30:40 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_assets.php"
+Feb 17 19:30:40 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_flashes.php"
+Feb 17 19:30:40 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_header.php"
+Feb 17 19:30:40 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_filters.php"
+Feb 17 19:30:40 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_filters_field.php"
+Feb 17 19:30:40 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_filters_field.php"
+Feb 17 19:30:40 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list.php"
+Feb 17 19:30:40 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_th_tabular.php"
+Feb 17 19:30:40 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 17 19:30:40 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 17 19:30:40 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 17 19:30:40 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 17 19:30:40 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 17 19:30:40 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 17 19:30:40 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    7.8 MB | mempeak:    8.0 MB | memdelta:      0.0 B | SELECT users.ID, users.NAME, users.STATUS_ID FROM `users` LIMIT 20
+Feb 17 19:30:40 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_batch_actions.php"
+Feb 17 19:30:40 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_tabular.php"
+Feb 17 19:30:40 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_actions.php"
+Feb 17 19:30:40 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_batch_actions.php"
+Feb 17 19:30:40 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_tabular.php"
+Feb 17 19:30:40 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_actions.php"
+Feb 17 19:30:40 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_batch_actions.php"
+Feb 17 19:30:40 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_actions.php"
+Feb 17 19:30:40 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_footer.php"
+Feb 17 19:30:40 symfony [info] {sfPHPView} Decorate content with "/var/www/symfony1.4.local/public_html/apps/backend/templates/layout.php"
+Feb 17 19:30:40 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/apps/backend/templates/layout.php"
+Feb 17 19:30:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 19:30:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 17 19:30:40 symfony [info] {sfWebDebugLogger} Configuration 0.36 ms (11)
+Feb 17 19:30:40 symfony [info] {sfWebDebugLogger} Factories 6.33 ms (1)
+Feb 17 19:30:40 symfony [info] {sfWebDebugLogger} Action "users/index" 11.23 ms (1)
+Feb 17 19:30:40 symfony [info] {sfWebDebugLogger} View "Success" for "users/index" 7.73 ms (1)
+Feb 17 19:30:40 symfony [info] {sfWebDebugLogger} Partial "users/_assets" 0.17 ms (1)
+Feb 17 19:30:40 symfony [info] {sfWebDebugLogger} Partial "users/_flashes" 0.12 ms (1)
+Feb 17 19:30:40 symfony [info] {sfWebDebugLogger} Partial "users/_list_header" 0.09 ms (1)
+Feb 17 19:30:40 symfony [info] {sfWebDebugLogger} Partial "users/_filters" 1.55 ms (1)
+Feb 17 19:30:40 symfony [info] {sfWebDebugLogger} Partial "users/_filters_field" 0.68 ms (2)
+Feb 17 19:30:40 symfony [info] {sfWebDebugLogger} Partial "users/_list" 2.58 ms (1)
+Feb 17 19:30:40 symfony [info] {sfWebDebugLogger} Partial "users/_list_th_tabular" 0.39 ms (1)
+Feb 17 19:30:40 symfony [info] {sfWebDebugLogger} Partial "users/_list_td_batch_actions" 0.29 ms (2)
+Feb 17 19:30:40 symfony [info] {sfWebDebugLogger} Partial "users/_list_td_tabular" 0.30 ms (2)
+Feb 17 19:30:40 symfony [info] {sfWebDebugLogger} Partial "users/_list_td_actions" 0.59 ms (2)
+Feb 17 19:30:40 symfony [info] {sfWebDebugLogger} Partial "users/_list_batch_actions" 0.18 ms (1)
+Feb 17 19:30:40 symfony [info] {sfWebDebugLogger} Partial "users/_list_actions" 0.13 ms (1)
+Feb 17 19:30:40 symfony [info] {sfWebDebugLogger} Partial "users/_list_footer" 0.09 ms (1)
+Feb 17 19:30:40 symfony [info] {sfWebResponse} Send content (66387 o)
+Feb 17 19:31:26 symfony [info] {sfPatternRouting} Match route "users" (/users.:sf_format) for /users with parameters array (  'module' => 'users',  'action' => 'index',  'sf_format' => 'html',)
+Feb 17 19:31:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 19:31:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 19:31:26 symfony [info] {usersActions} Call "usersActions->executeIndex()"
+Feb 17 19:31:26 symfony [debug] {sfPropelLogger} time:  0.003 sec | slow:  NO | mem:    6.8 MB | mempeak:    6.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Feb 17 19:31:26 symfony [debug] {sfPropelLogger} time:  0.003 sec | slow:  NO | mem:    7.0 MB | mempeak:    7.0 MB | memdelta:      0.0 B | SELECT COUNT(*) FROM `users`
+Feb 17 19:31:26 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/indexSuccess.php"
+Feb 17 19:31:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_assets.php"
+Feb 17 19:31:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_flashes.php"
+Feb 17 19:31:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_header.php"
+Feb 17 19:31:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_filters.php"
+Feb 17 19:31:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_filters_field.php"
+Feb 17 19:31:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_filters_field.php"
+Feb 17 19:31:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list.php"
+Feb 17 19:31:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_th_tabular.php"
+Feb 17 19:31:26 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 17 19:31:26 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 17 19:31:26 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 17 19:31:26 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 17 19:31:26 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 17 19:31:26 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 17 19:31:26 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    7.8 MB | mempeak:    8.0 MB | memdelta:      0.0 B | SELECT users.ID, users.NAME, users.STATUS_ID FROM `users` LIMIT 20
+Feb 17 19:31:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_batch_actions.php"
+Feb 17 19:31:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_tabular.php"
+Feb 17 19:31:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_actions.php"
+Feb 17 19:31:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_batch_actions.php"
+Feb 17 19:31:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_tabular.php"
+Feb 17 19:31:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_actions.php"
+Feb 17 19:31:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_batch_actions.php"
+Feb 17 19:31:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_actions.php"
+Feb 17 19:31:26 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_footer.php"
+Feb 17 19:31:26 symfony [info] {sfPHPView} Decorate content with "/var/www/symfony1.4.local/public_html/apps/backend/templates/layout.php"
+Feb 17 19:31:26 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/apps/backend/templates/layout.php"
+Feb 17 19:31:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 19:31:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 17 19:31:26 symfony [info] {sfWebDebugLogger} Configuration 0.76 ms (11)
+Feb 17 19:31:26 symfony [info] {sfWebDebugLogger} Factories 12.80 ms (1)
+Feb 17 19:31:26 symfony [info] {sfWebDebugLogger} Action "users/index" 15.22 ms (1)
+Feb 17 19:31:26 symfony [info] {sfWebDebugLogger} View "Success" for "users/index" 8.71 ms (1)
+Feb 17 19:31:26 symfony [info] {sfWebDebugLogger} Partial "users/_assets" 0.12 ms (1)
+Feb 17 19:31:26 symfony [info] {sfWebDebugLogger} Partial "users/_flashes" 0.11 ms (1)
+Feb 17 19:31:26 symfony [info] {sfWebDebugLogger} Partial "users/_list_header" 0.09 ms (1)
+Feb 17 19:31:26 symfony [info] {sfWebDebugLogger} Partial "users/_filters" 1.60 ms (1)
+Feb 17 19:31:26 symfony [info] {sfWebDebugLogger} Partial "users/_filters_field" 0.69 ms (2)
+Feb 17 19:31:26 symfony [info] {sfWebDebugLogger} Partial "users/_list" 3.30 ms (1)
+Feb 17 19:31:26 symfony [info] {sfWebDebugLogger} Partial "users/_list_th_tabular" 0.84 ms (1)
+Feb 17 19:31:26 symfony [info] {sfWebDebugLogger} Partial "users/_list_td_batch_actions" 0.24 ms (2)
+Feb 17 19:31:26 symfony [info] {sfWebDebugLogger} Partial "users/_list_td_tabular" 0.35 ms (2)
+Feb 17 19:31:26 symfony [info] {sfWebDebugLogger} Partial "users/_list_td_actions" 0.76 ms (2)
+Feb 17 19:31:26 symfony [info] {sfWebDebugLogger} Partial "users/_list_batch_actions" 0.18 ms (1)
+Feb 17 19:31:26 symfony [info] {sfWebDebugLogger} Partial "users/_list_actions" 0.13 ms (1)
+Feb 17 19:31:26 symfony [info] {sfWebDebugLogger} Partial "users/_list_footer" 0.09 ms (1)
+Feb 17 19:31:26 symfony [info] {sfWebResponse} Send content (66388 o)
+Feb 17 19:32:18 symfony [info] {sfPatternRouting} Match route "users" (/users.:sf_format) for /users with parameters array (  'module' => 'users',  'action' => 'index',  'sf_format' => 'html',)
+Feb 17 19:32:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 19:32:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 19:32:18 symfony [info] {usersActions} Call "usersActions->executeIndex()"
+Feb 17 19:32:18 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    6.8 MB | mempeak:    6.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Feb 17 19:32:18 symfony [debug] {sfPropelLogger} time:  0.004 sec | slow:  NO | mem:    7.0 MB | mempeak:    7.0 MB | memdelta:      0.0 B | SELECT COUNT(*) FROM `users`
+Feb 17 19:32:18 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/indexSuccess.php"
+Feb 17 19:32:18 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_assets.php"
+Feb 17 19:32:18 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_flashes.php"
+Feb 17 19:32:18 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_header.php"
+Feb 17 19:32:18 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_filters.php"
+Feb 17 19:32:18 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_filters_field.php"
+Feb 17 19:32:18 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_filters_field.php"
+Feb 17 19:32:18 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list.php"
+Feb 17 19:32:18 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_th_tabular.php"
+Feb 17 19:32:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 17 19:32:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 17 19:32:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 17 19:32:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 17 19:32:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 17 19:32:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 17 19:32:18 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    7.8 MB | mempeak:    8.0 MB | memdelta:      0.0 B | SELECT users.ID, users.NAME, users.STATUS_ID FROM `users` LIMIT 20
+Feb 17 19:32:18 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_batch_actions.php"
+Feb 17 19:32:18 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_tabular.php"
+Feb 17 19:32:18 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_actions.php"
+Feb 17 19:32:18 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_batch_actions.php"
+Feb 17 19:32:18 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_tabular.php"
+Feb 17 19:32:18 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_actions.php"
+Feb 17 19:32:18 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_batch_actions.php"
+Feb 17 19:32:18 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_actions.php"
+Feb 17 19:32:18 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_footer.php"
+Feb 17 19:32:18 symfony [info] {sfPHPView} Decorate content with "/var/www/symfony1.4.local/public_html/apps/backend/templates/layout.php"
+Feb 17 19:32:18 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/apps/backend/templates/layout.php"
+Feb 17 19:32:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 19:32:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 17 19:32:18 symfony [info] {sfWebDebugLogger} Configuration 0.39 ms (11)
+Feb 17 19:32:18 symfony [info] {sfWebDebugLogger} Factories 6.26 ms (1)
+Feb 17 19:32:18 symfony [info] {sfWebDebugLogger} Action "users/index" 14.33 ms (1)
+Feb 17 19:32:18 symfony [info] {sfWebDebugLogger} View "Success" for "users/index" 10.16 ms (1)
+Feb 17 19:32:18 symfony [info] {sfWebDebugLogger} Partial "users/_assets" 0.13 ms (1)
+Feb 17 19:32:18 symfony [info] {sfWebDebugLogger} Partial "users/_flashes" 0.12 ms (1)
+Feb 17 19:32:18 symfony [info] {sfWebDebugLogger} Partial "users/_list_header" 0.09 ms (1)
+Feb 17 19:32:18 symfony [info] {sfWebDebugLogger} Partial "users/_filters" 1.59 ms (1)
+Feb 17 19:32:18 symfony [info] {sfWebDebugLogger} Partial "users/_filters_field" 0.70 ms (2)
+Feb 17 19:32:18 symfony [info] {sfWebDebugLogger} Partial "users/_list" 2.76 ms (1)
+Feb 17 19:32:18 symfony [info] {sfWebDebugLogger} Partial "users/_list_th_tabular" 0.42 ms (1)
+Feb 17 19:32:18 symfony [info] {sfWebDebugLogger} Partial "users/_list_td_batch_actions" 0.25 ms (2)
+Feb 17 19:32:18 symfony [info] {sfWebDebugLogger} Partial "users/_list_td_tabular" 0.32 ms (2)
+Feb 17 19:32:18 symfony [info] {sfWebDebugLogger} Partial "users/_list_td_actions" 0.62 ms (2)
+Feb 17 19:32:18 symfony [info] {sfWebDebugLogger} Partial "users/_list_batch_actions" 0.19 ms (1)
+Feb 17 19:32:18 symfony [info] {sfWebDebugLogger} Partial "users/_list_actions" 0.14 ms (1)
+Feb 17 19:32:18 symfony [info] {sfWebDebugLogger} Partial "users/_list_footer" 0.09 ms (1)
+Feb 17 19:32:18 symfony [info] {sfWebResponse} Send content (66388 o)
+Feb 17 19:33:42 symfony [info] {sfPatternRouting} Match route "users" (/users.:sf_format) for /users with parameters array (  'module' => 'users',  'action' => 'index',  'sf_format' => 'html',)
+Feb 17 19:33:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 19:33:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 19:33:42 symfony [info] {usersActions} Call "usersActions->executeIndex()"
+Feb 17 19:33:42 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/indexSuccess.php"
+Feb 17 19:33:42 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_assets.php"
+Feb 17 19:33:42 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_flashes.php"
+Feb 17 19:33:42 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_header.php"
+Feb 17 19:33:42 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_filters.php"
+Feb 17 19:33:42 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_filters_field.php"
+Feb 17 19:33:42 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_filters_field.php"
+Feb 17 19:33:42 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list.php"
+Feb 17 19:33:42 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_th_tabular.php"
+Feb 17 19:33:42 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 17 19:33:42 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 17 19:33:42 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 17 19:33:42 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 17 19:33:42 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 17 19:33:42 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 17 19:33:42 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_batch_actions.php"
+Feb 17 19:33:42 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_tabular.php"
+Feb 17 19:33:42 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_actions.php"
+Feb 17 19:33:42 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_batch_actions.php"
+Feb 17 19:33:42 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_tabular.php"
+Feb 17 19:33:42 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_td_actions.php"
+Feb 17 19:33:42 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_batch_actions.php"
+Feb 17 19:33:42 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_actions.php"
+Feb 17 19:33:42 symfony [info] {sfPartialView} Render "/var/www/symfony1.4.local/public_html/cache/backend/dev/modules/autoUsers/templates/_list_footer.php"
+Feb 17 19:33:42 symfony [info] {sfPHPView} Decorate content with "/var/www/symfony1.4.local/public_html/apps/backend/templates/layout.php"
+Feb 17 19:33:42 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/apps/backend/templates/layout.php"
+Feb 17 19:33:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 19:33:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 17 19:33:42 symfony [info] {sfWebResponse} Send content (59004 o)

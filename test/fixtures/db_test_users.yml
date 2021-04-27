@@ -1,0 +1,5 @@
+# data/fixtures/db_test_users.yml
+Users:
+  Konan:
+    name:      Konan
+    status_id: 1

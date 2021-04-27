@@ -1,0 +1,299 @@
+Jan 04 15:44:06 symfony [info] {sfPatternRouting} Match route "users" (/users) for /users with parameters array (  'module' => 'default',  'action' => 'user',)
+Jan 04 15:44:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 04 15:44:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 04 15:44:06 symfony [info] {defaultActions} Call "defaultActions->executeUser()"
+Jan 08 14:56:25 symfony [info] {sfPatternRouting} Match route "users" (/users) for /users with parameters array (  'module' => 'default',  'action' => 'user',)
+Jan 08 14:56:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 08 14:56:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 08 14:56:25 symfony [info] {defaultActions} Call "defaultActions->executeUser()"
+Jan 08 14:57:03 symfony [info] {sfPatternRouting} Match route "users" (/users) for /users with parameters array (  'module' => 'default',  'action' => 'user',)
+Jan 08 14:57:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 08 14:57:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 08 14:57:03 symfony [info] {defaultActions} Call "defaultActions->executeUser()"
+Jan 08 15:14:30 symfony [info] {sfPatternRouting} Match route "users" (/users) for /users with parameters array (  'module' => 'default',  'action' => 'user',)
+Jan 08 15:14:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 08 15:14:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 08 15:14:30 symfony [info] {defaultActions} Call "defaultActions->executeUser()"
+Jan 08 15:14:45 symfony [info] {sfPatternRouting} Match route "users" (/users) for /users with parameters array (  'module' => 'default',  'action' => 'user',)
+Jan 08 15:14:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 08 15:14:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 08 15:14:45 symfony [info] {defaultActions} Call "defaultActions->executeUser()"
+Jan 08 15:14:45 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    1.8 MB | mempeak:    1.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jan 08 15:14:45 symfony [err] {sfPropelLogger} SQLSTATE[42S02]: Base table or view not found: 1146 Table 'symfony1_4.users' doesn't exist
+Jan 08 15:14:45 symfony [err] {PropelException}  [wrapped: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'symfony1_4.users' doesn't exist]
+Jan 08 15:14:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jan 08 15:14:45 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/symfony1.4.local/public_html/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /var/www/symfony1.4.local/public_html/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Jan 08 15:14:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 08 15:14:45 symfony [info] {sfWebDebugLogger} Configuration 1.08 ms (8)
+Jan 08 15:14:45 symfony [info] {sfWebDebugLogger} Factories 7.63 ms (1)
+Jan 08 15:14:45 symfony [info] {sfWebDebugLogger} Action "default/user" 30.73 ms (1)
+Jan 09 15:13:49 symfony [info] {sfPatternRouting} Match route "users" (/users) for /users with parameters array (  'module' => 'default',  'action' => 'user',)
+Jan 09 15:13:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 09 15:13:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 09 15:13:49 symfony [info] {defaultActions} Call "defaultActions->executeUser()"
+Jan 09 15:13:49 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jan 09 15:13:49 symfony [err] {sfPropelLogger} SQLSTATE[42S02]: Base table or view not found: 1146 Table 'symfony1_4.users' doesn't exist
+Jan 09 15:13:49 symfony [err] {PropelException}  [wrapped: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'symfony1_4.users' doesn't exist]
+Jan 09 15:13:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jan 09 15:13:49 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/symfony1.4.local/public_html/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /var/www/symfony1.4.local/public_html/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Jan 09 15:13:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 09 15:13:49 symfony [info] {sfWebDebugLogger} Configuration 0.44 ms (8)
+Jan 09 15:13:49 symfony [info] {sfWebDebugLogger} Factories 17.88 ms (1)
+Jan 09 15:13:49 symfony [info] {sfWebDebugLogger} Action "default/user" 12.82 ms (1)
+Jan 09 15:13:50 symfony [info] {sfPatternRouting} Match route "users" (/users) for /users with parameters array (  'module' => 'default',  'action' => 'user',)
+Jan 09 15:13:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 09 15:13:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 09 15:13:50 symfony [info] {defaultActions} Call "defaultActions->executeUser()"
+Jan 09 15:13:50 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    1.8 MB | mempeak:    1.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jan 09 15:13:50 symfony [err] {sfPropelLogger} SQLSTATE[42S02]: Base table or view not found: 1146 Table 'symfony1_4.users' doesn't exist
+Jan 09 15:13:50 symfony [err] {PropelException}  [wrapped: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'symfony1_4.users' doesn't exist]
+Jan 09 15:13:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jan 09 15:13:50 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/symfony1.4.local/public_html/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /var/www/symfony1.4.local/public_html/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Jan 09 15:13:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 09 15:13:50 symfony [info] {sfWebDebugLogger} Configuration 0.41 ms (8)
+Jan 09 15:13:50 symfony [info] {sfWebDebugLogger} Factories 2.01 ms (1)
+Jan 09 15:13:50 symfony [info] {sfWebDebugLogger} Action "default/user" 15.30 ms (1)
+Jan 09 15:19:47 symfony [info] {sfPatternRouting} Match route "users" (/users) for /users with parameters array (  'module' => 'default',  'action' => 'user',)
+Jan 09 15:19:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 09 15:19:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 09 15:19:47 symfony [info] {defaultActions} Call "defaultActions->executeUser()"
+Jan 09 15:19:47 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jan 09 15:19:47 symfony [err] {sfPropelLogger} SQLSTATE[42S02]: Base table or view not found: 1146 Table 'symfony1_4.users' doesn't exist
+Jan 09 15:19:47 symfony [err] {PropelException}  [wrapped: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'symfony1_4.users' doesn't exist]
+Jan 09 15:19:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jan 09 15:19:47 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/symfony1.4.local/public_html/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /var/www/symfony1.4.local/public_html/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Jan 09 15:19:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 09 15:19:47 symfony [info] {sfWebDebugLogger} Configuration 0.42 ms (8)
+Jan 09 15:19:47 symfony [info] {sfWebDebugLogger} Factories 2.45 ms (1)
+Jan 09 15:19:47 symfony [info] {sfWebDebugLogger} Action "default/user" 17.58 ms (1)
+Jan 09 15:26:24 symfony [info] {sfPatternRouting} Match route "users" (/users) for /users with parameters array (  'module' => 'default',  'action' => 'user',)
+Jan 09 15:26:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 09 15:26:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 09 15:26:24 symfony [info] {defaultActions} Call "defaultActions->executeUser()"
+Jan 09 15:26:24 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jan 09 15:26:24 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT users.ID, users.NAME, users.STATUS_ID FROM `users` ORDER BY users.ID ASC
+Jan 09 15:26:24 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/apps/frontend/modules/default/templates/userSuccess.php"
+Jan 09 15:26:24 symfony [info] {sfPHPView} Decorate content with "/var/www/symfony1.4.local/public_html/apps/frontend/templates/layout.php"
+Jan 09 15:26:24 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/apps/frontend/templates/layout.php"
+Jan 09 15:26:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 09 15:26:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 09 15:26:24 symfony [info] {sfWebDebugLogger} Configuration 3.73 ms (10)
+Jan 09 15:26:24 symfony [info] {sfWebDebugLogger} Factories 6.05 ms (1)
+Jan 09 15:26:24 symfony [info] {sfWebDebugLogger} Action "default/user" 9.43 ms (1)
+Jan 09 15:26:24 symfony [info] {sfWebDebugLogger} View "Success" for "default/user" 8.37 ms (1)
+Jan 09 15:26:24 symfony [info] {sfWebResponse} Send content (30284 o)
+Jan 09 15:28:05 symfony [info] {sfPatternRouting} Match route "users" (/users) for /users with parameters array (  'module' => 'default',  'action' => 'user',)
+Jan 09 15:28:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 09 15:28:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 09 15:28:05 symfony [info] {defaultActions} Call "defaultActions->executeUser()"
+Jan 09 15:28:06 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    1.8 MB | mempeak:    1.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jan 09 15:28:06 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    1.8 MB | mempeak:    1.8 MB | memdelta:      0.0 B | SELECT users.ID, users.NAME, users.STATUS_ID FROM `users` ORDER BY users.ID ASC
+Jan 09 15:28:06 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/apps/frontend/modules/default/templates/userSuccess.php"
+Jan 09 15:28:06 symfony [info] {sfPHPView} Decorate content with "/var/www/symfony1.4.local/public_html/apps/frontend/templates/layout.php"
+Jan 09 15:28:06 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/apps/frontend/templates/layout.php"
+Jan 09 15:28:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 09 15:28:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 09 15:28:06 symfony [info] {sfWebDebugLogger} Configuration 1.04 ms (9)
+Jan 09 15:28:06 symfony [info] {sfWebDebugLogger} Factories 5.59 ms (1)
+Jan 09 15:28:06 symfony [info] {sfWebDebugLogger} Action "default/user" 3.21 ms (1)
+Jan 09 15:28:06 symfony [info] {sfWebDebugLogger} View "Success" for "default/user" 2.08 ms (1)
+Jan 09 15:28:06 symfony [info] {sfWebResponse} Send content (30281 o)
+Jan 09 15:28:34 symfony [info] {sfPatternRouting} Match route "users" (/users) for /users with parameters array (  'module' => 'default',  'action' => 'user',)
+Jan 09 15:28:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 09 15:28:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 09 15:28:34 symfony [info] {defaultActions} Call "defaultActions->executeUser()"
+Jan 09 15:28:34 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    1.8 MB | mempeak:    1.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jan 09 15:28:34 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    1.8 MB | mempeak:    1.8 MB | memdelta:      0.0 B | SELECT users.ID, users.NAME, users.STATUS_ID FROM `users` ORDER BY users.ID ASC
+Jan 09 15:28:34 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/apps/frontend/modules/default/templates/userSuccess.php"
+Jan 09 15:28:34 symfony [info] {sfPHPView} Decorate content with "/var/www/symfony1.4.local/public_html/apps/frontend/templates/layout.php"
+Jan 09 15:28:34 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/apps/frontend/templates/layout.php"
+Jan 09 15:28:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 09 15:28:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 09 15:28:34 symfony [info] {sfWebDebugLogger} Configuration 0.25 ms (9)
+Jan 09 15:28:34 symfony [info] {sfWebDebugLogger} Factories 1.34 ms (1)
+Jan 09 15:28:34 symfony [info] {sfWebDebugLogger} Action "default/user" 3.72 ms (1)
+Jan 09 15:28:34 symfony [info] {sfWebDebugLogger} View "Success" for "default/user" 0.94 ms (1)
+Jan 09 15:28:34 symfony [info] {sfWebResponse} Send content (31744 o)
+Jan 09 15:28:45 symfony [info] {sfPatternRouting} Match route "users" (/users) for /users with parameters array (  'module' => 'default',  'action' => 'user',)
+Jan 09 15:28:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 09 15:28:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 09 15:28:45 symfony [info] {defaultActions} Call "defaultActions->executeUser()"
+Jan 09 15:28:45 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    1.8 MB | mempeak:    1.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jan 09 15:28:45 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    1.8 MB | mempeak:    1.8 MB | memdelta:      0.0 B | SELECT users.ID, users.NAME, users.STATUS_ID FROM `users` ORDER BY users.ID ASC
+Jan 09 15:28:45 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/apps/frontend/modules/default/templates/userSuccess.php"
+Jan 09 15:30:03 symfony [info] {sfPatternRouting} Match route "users" (/users) for /users with parameters array (  'module' => 'default',  'action' => 'user',)
+Jan 09 15:30:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 09 15:30:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 09 15:30:03 symfony [info] {defaultActions} Call "defaultActions->executeUser()"
+Jan 09 15:30:03 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    1.8 MB | mempeak:    1.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jan 09 15:30:03 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    1.8 MB | mempeak:    1.8 MB | memdelta:      0.0 B | SELECT users.ID, users.NAME, users.STATUS_ID FROM `users` ORDER BY users.ID ASC
+Jan 09 15:30:03 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/apps/frontend/modules/default/templates/userSuccess.php"
+Jan 09 15:30:11 symfony [info] {sfPatternRouting} Match route "users" (/users) for /users with parameters array (  'module' => 'default',  'action' => 'user',)
+Jan 09 15:30:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 09 15:30:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 09 15:30:11 symfony [info] {defaultActions} Call "defaultActions->executeUser()"
+Jan 09 15:30:11 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    1.8 MB | mempeak:    1.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jan 09 15:30:11 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    1.8 MB | mempeak:    1.8 MB | memdelta:      0.0 B | SELECT users.ID, users.NAME, users.STATUS_ID FROM `users` ORDER BY users.ID ASC
+Jan 09 15:30:11 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/apps/frontend/modules/default/templates/userSuccess.php"
+Jan 09 15:30:11 symfony [info] {sfPHPView} Decorate content with "/var/www/symfony1.4.local/public_html/apps/frontend/templates/layout.php"
+Jan 09 15:30:11 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/apps/frontend/templates/layout.php"
+Jan 09 15:30:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 09 15:30:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 09 15:30:11 symfony [info] {sfWebDebugLogger} Configuration 0.50 ms (9)
+Jan 09 15:30:11 symfony [info] {sfWebDebugLogger} Factories 1.49 ms (1)
+Jan 09 15:30:11 symfony [info] {sfWebDebugLogger} Action "default/user" 3.66 ms (1)
+Jan 09 15:30:11 symfony [info] {sfWebDebugLogger} View "Success" for "default/user" 1.17 ms (1)
+Jan 09 15:30:11 symfony [info] {sfWebResponse} Send content (30293 o)
+Jan 10 16:12:54 symfony [info] {sfPatternRouting} Match route "users" (/users) for /users with parameters array (  'module' => 'default',  'action' => 'user',)
+Jan 10 16:12:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 10 16:12:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 10 16:12:54 symfony [info] {defaultActions} Call "defaultActions->executeUser()"
+Jan 10 16:12:54 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jan 10 16:12:54 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT users.ID, users.NAME, users.STATUS_ID FROM `users` ORDER BY users.ID ASC
+Jan 10 16:12:54 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/apps/frontend/modules/default/templates/userSuccess.php"
+Jan 10 16:12:54 symfony [info] {sfPHPView} Decorate content with "/var/www/symfony1.4.local/public_html/apps/frontend/templates/layout.php"
+Jan 10 16:12:54 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/apps/frontend/templates/layout.php"
+Jan 10 16:12:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 10 16:12:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 10 16:12:54 symfony [info] {sfWebDebugLogger} Configuration 0.39 ms (9)
+Jan 10 16:12:54 symfony [info] {sfWebDebugLogger} Factories 16.48 ms (1)
+Jan 10 16:12:54 symfony [info] {sfWebDebugLogger} Action "default/user" 2.78 ms (1)
+Jan 10 16:12:54 symfony [info] {sfWebDebugLogger} View "Success" for "default/user" 2.36 ms (1)
+Jan 10 16:12:54 symfony [info] {sfWebResponse} Send content (30286 o)
+Jan 10 16:12:55 symfony [info] {sfPatternRouting} Match route "users" (/users) for /users with parameters array (  'module' => 'default',  'action' => 'user',)
+Jan 10 16:12:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 10 16:12:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 10 16:12:55 symfony [info] {defaultActions} Call "defaultActions->executeUser()"
+Jan 10 16:12:55 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    1.8 MB | mempeak:    1.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jan 10 16:12:55 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    1.8 MB | mempeak:    1.8 MB | memdelta:      0.0 B | SELECT users.ID, users.NAME, users.STATUS_ID FROM `users` ORDER BY users.ID ASC
+Jan 10 16:12:55 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/apps/frontend/modules/default/templates/userSuccess.php"
+Jan 10 16:12:55 symfony [info] {sfPHPView} Decorate content with "/var/www/symfony1.4.local/public_html/apps/frontend/templates/layout.php"
+Jan 10 16:12:55 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/apps/frontend/templates/layout.php"
+Jan 10 16:12:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 10 16:12:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 10 16:12:55 symfony [info] {sfWebDebugLogger} Configuration 1.44 ms (9)
+Jan 10 16:12:55 symfony [info] {sfWebDebugLogger} Factories 7.09 ms (1)
+Jan 10 16:12:55 symfony [info] {sfWebDebugLogger} Action "default/user" 4.07 ms (1)
+Jan 10 16:12:55 symfony [info] {sfWebDebugLogger} View "Success" for "default/user" 2.42 ms (1)
+Jan 10 16:12:55 symfony [info] {sfWebResponse} Send content (30261 o)
+Jan 10 16:17:40 symfony [info] {sfPatternRouting} Match route "users" (/users) for /users with parameters array (  'module' => 'default',  'action' => 'user',)
+Jan 10 16:17:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 10 16:17:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 10 16:17:40 symfony [info] {defaultActions} Call "defaultActions->executeUser()"
+Jan 10 16:17:40 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    1.8 MB | mempeak:    1.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jan 10 16:17:40 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    1.8 MB | mempeak:    1.8 MB | memdelta:      0.0 B | SELECT users.ID, users.NAME, users.STATUS_ID FROM `users` ORDER BY users.ID ASC
+Jan 10 16:17:40 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/apps/frontend/modules/default/templates/userSuccess.php"
+Jan 10 16:17:40 symfony [info] {sfPHPView} Decorate content with "/var/www/symfony1.4.local/public_html/apps/frontend/templates/layout.php"
+Jan 10 16:17:40 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/apps/frontend/templates/layout.php"
+Jan 10 16:17:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 10 16:17:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 10 16:17:40 symfony [info] {sfWebDebugLogger} Configuration 1.89 ms (9)
+Jan 10 16:17:40 symfony [info] {sfWebDebugLogger} Factories 11.06 ms (1)
+Jan 10 16:17:40 symfony [info] {sfWebDebugLogger} Action "default/user" 8.94 ms (1)
+Jan 10 16:17:40 symfony [info] {sfWebDebugLogger} View "Success" for "default/user" 3.06 ms (1)
+Jan 10 16:17:40 symfony [info] {sfWebResponse} Send content (30294 o)
+Mar 21 16:39:12 symfony [info] {sfPatternRouting} Match route "users" (/users) for /users with parameters array (  'module' => 'default',  'action' => 'user',)
+Mar 21 16:39:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 21 16:39:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 21 16:39:12 symfony [info] {defaultActions} Call "defaultActions->executeUser()"
+Mar 21 16:39:12 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Mar 21 16:39:12 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT users.ID, users.NAME, users.STATUS_ID FROM `users` ORDER BY users.ID ASC
+Mar 29 11:24:10 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/users/" (/).
+Mar 29 11:24:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 29 11:24:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 29 11:24:10 symfony [info] {sfWebDebugLogger} Configuration 0.30 ms (5)
+Mar 29 11:24:10 symfony [info] {sfWebDebugLogger} Factories 22.12 ms (1)
+Mar 29 11:24:18 symfony [info] {sfPatternRouting} Match route "users" (/users) for /users with parameters array (  'module' => 'default',  'action' => 'user',)
+Mar 29 11:24:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 29 11:24:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 29 11:24:18 symfony [info] {defaultActions} Call "defaultActions->executeUser()"
+Mar 29 11:24:18 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Mar 29 11:24:18 symfony [debug] {sfPropelLogger} time:  0.012 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.3 MB | memdelta:      0.0 B | SELECT users.ID, users.NAME, users.STATUS_ID FROM `users` ORDER BY users.ID ASC
+Mar 29 11:24:18 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/apps/frontend/modules/default/templates/userSuccess.php"
+Mar 29 11:24:18 symfony [info] {sfPHPView} Decorate content with "/var/www/symfony1.4.local/public_html/apps/frontend/templates/layout.php"
+Mar 29 11:24:18 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/apps/frontend/templates/layout.php"
+Mar 29 11:24:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 29 11:24:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 29 11:24:18 symfony [info] {sfWebDebugLogger} Configuration 1.00 ms (9)
+Mar 29 11:24:18 symfony [info] {sfWebDebugLogger} Factories 3.89 ms (1)
+Mar 29 11:24:18 symfony [info] {sfWebDebugLogger} Action "default/user" 36.82 ms (1)
+Mar 29 11:24:18 symfony [info] {sfWebDebugLogger} View "Success" for "default/user" 11.97 ms (1)
+Mar 29 11:24:18 symfony [info] {sfWebResponse} Send content (30372 o)
+Apr 13 20:33:42 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Apr 13 20:33:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 13 20:33:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 13 20:33:42 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Apr 13 20:34:34 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Apr 13 20:34:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 13 20:34:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 13 20:34:34 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Apr 13 20:34:34 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/apps/frontend/modules/default/templates/indexSuccess.php"
+Apr 13 20:34:34 symfony [info] {sfPHPView} Decorate content with "/var/www/symfony1.4.local/public_html/apps/frontend/templates/layout.php"
+Apr 13 20:34:34 symfony [info] {sfPHPView} Render "/var/www/symfony1.4.local/public_html/apps/frontend/templates/layout.php"
+Apr 13 20:34:34 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/symfony1.4.local/public_html/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /var/www/symfony1.4.local/public_html/apps/frontend/modules/default/actions/actions.class.php:17))
+Apr 13 20:34:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 13 20:34:34 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/symfony1.4.local/public_html/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /var/www/symfony1.4.local/public_html/apps/frontend/modules/default/actions/actions.class.php:17))
+Apr 13 20:34:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 13 20:34:34 symfony [info] {sfWebDebugLogger} Configuration 1.50 ms (9)
+Apr 13 20:34:34 symfony [info] {sfWebDebugLogger} Factories 7.48 ms (1)
+Apr 13 20:34:34 symfony [info] {sfWebDebugLogger} Action "default/index" 255.74 ms (1)
+Apr 13 20:34:34 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 8.30 ms (1)
+Apr 13 20:34:34 symfony [info] {sfWebResponse} Send content (27816 o)
+Apr 15 12:29:37 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /default/test/ with parameters array (  'module' => 'default',  'action' => 'test',)
+Apr 15 12:29:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 15 12:29:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 15 12:29:37 symfony [info] {defaultActions} Call "defaultActions->executeTest()"
+Apr 15 12:29:37 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/symfony1.4.local/public_html/apps/frontend/modules/default/actions/actions.class.php on line 29 (require_once(/var/www/symfony1.4.local/public_html/apps/frontend/modules/default/actions/../bootstrap/unit.php): failed to open stream: No such file or directory)
+Apr 15 12:30:46 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /default/test/ with parameters array (  'module' => 'default',  'action' => 'test',)
+Apr 15 12:30:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 15 12:30:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 15 12:30:46 symfony [info] {defaultActions} Call "defaultActions->executeTest()"
+Apr 15 12:30:46 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/symfony1.4.local/public_html/apps/frontend/modules/default/actions/actions.class.php on line 29 (require_once(/var/www/symfony1.4.local/public_html/apps/frontend/modules/default/actions/../bootstrap/unit.php): failed to open stream: No such file or directory)
+Apr 15 12:30:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /default/test/ with parameters array (  'module' => 'default',  'action' => 'test',)
+Apr 15 12:30:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 15 12:30:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 15 12:30:50 symfony [info] {defaultActions} Call "defaultActions->executeTest()"
+Apr 15 12:33:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /default/test/ with parameters array (  'module' => 'default',  'action' => 'test',)
+Apr 15 12:33:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 15 12:33:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 15 12:33:09 symfony [info] {defaultActions} Call "defaultActions->executeTest()"
+Apr 15 12:33:26 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /default/test/ with parameters array (  'module' => 'default',  'action' => 'test',)
+Apr 15 12:33:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 15 12:33:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 15 12:33:26 symfony [info] {defaultActions} Call "defaultActions->executeTest()"
+Apr 15 12:34:27 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /default/test/ with parameters array (  'module' => 'default',  'action' => 'test',)
+Apr 15 12:34:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 15 12:34:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 15 12:34:28 symfony [info] {defaultActions} Call "defaultActions->executeTest()"
+Apr 15 12:34:28 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/symfony1.4.local/public_html/apps/frontend/modules/default/actions/actions.class.php on line 31 (Undefined variable: rootPath)
+Apr 15 12:36:19 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /default/test/ with parameters array (  'module' => 'default',  'action' => 'test',)
+Apr 15 12:36:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 15 12:36:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 15 12:36:19 symfony [info] {defaultActions} Call "defaultActions->executeTest()"
+Apr 15 12:37:55 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /default/test/ with parameters array (  'module' => 'default',  'action' => 'test',)
+Apr 15 12:37:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 15 12:37:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 15 12:37:55 symfony [info] {defaultActions} Call "defaultActions->executeTest()"
+Apr 15 12:56:29 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /default/test/ with parameters array (  'module' => 'default',  'action' => 'test',)
+Apr 15 12:56:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 15 12:56:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 15 12:56:29 symfony [info] {defaultActions} Call "defaultActions->executeTest()"
+Apr 15 12:56:46 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /default/test/ with parameters array (  'module' => 'default',  'action' => 'test',)
+Apr 15 12:56:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 15 12:56:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 15 12:56:46 symfony [info] {defaultActions} Call "defaultActions->executeTest()"
+Apr 15 13:01:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /default/test/ with parameters array (  'module' => 'default',  'action' => 'test',)
+Apr 15 13:01:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 15 13:01:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 15 13:01:35 symfony [info] {defaultActions} Call "defaultActions->executeTest()"
+Apr 15 13:01:35 symfony [err] {sfRenderException} The template "testSuccess.php" does not exist or is unreadable in "".
+Apr 15 13:01:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Apr 15 13:01:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 15 13:01:36 symfony [info] {sfWebDebugLogger} Configuration 0.41 ms (9)
+Apr 15 13:01:36 symfony [info] {sfWebDebugLogger} Factories 2.93 ms (1)
+Apr 15 13:01:36 symfony [info] {sfWebDebugLogger} Action "default/test" 31.80 ms (1)
+Apr 15 13:01:36 symfony [info] {sfWebDebugLogger} View "Success" for "default/test" 9.72 ms (1)
+Apr 15 13:01:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /default/test/ with parameters array (  'module' => 'default',  'action' => 'test',)
+Apr 15 13:01:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 15 13:01:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 15 13:01:50 symfony [info] {defaultActions} Call "defaultActions->executeTest()"
